@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-project{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 15, 15);
+}
+.container-project {
+    height: 100vh;
+    font-family: "Handjet", cursive;
+    color: aliceblue;
+}
+.title-project {
+    font-size:60px;
+    height: 100px;
+    padding-top: 2rem;
+    font-weight:lighter;
+}
+.wrapper-image-project {
+    width: 90%;
+    height: 35vh;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.image-project {
+    width: 100%;
+    border-radius: 50px;
+    border: 4px solid rgb(2, 204, 255);
+}
+.text-project-funiture{
+    width: 100%;
+    height: 30vh;
+    padding-top: 4rem;
+}
+.text-project-funiture h3{
+    font-size: 30px;
+}
+.text-project-funiture p{
+    font-size: 20px;
+}
+.btn-view {
+    cursor: pointer;
+}
+@media screen and (max-width: 600px){
+    .bg-project{
+        height: 140vh;
+    }
+    .text-project-funiture{
+        margin-top: -7rem;
+        margin-left: 2rem;
+        width: 90%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px){
+    .bg-project{
+        height: 140vh;
+    }
+    .text-project-funiture{
+        margin-top: -7rem;
+        margin-left: 2rem;
+        width: 90%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 720px){
+    .bg-project{
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 960px){
+    .text-project-funiture{
+        margin-top: -5rem;
+        margin-left: 0;
+        width: 100%;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 1260px){
+    .text-project-funiture{
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        text-align: left;
+    }
+}
