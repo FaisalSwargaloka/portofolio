@@ -7,7 +7,7 @@
 }
 .bg {
   width: 100%;
-  height: auto;
+  height: 430vh;
   background-color: rgb(14, 15, 15);
 }
 .bg-home {
@@ -95,6 +95,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  .bg{
+    height: 470vh;
+  }
+  .bg-home{
+    height: 110vh;
+  }
   .section-left {
     width: 100%;
   }
@@ -118,6 +124,9 @@
   }
 }
 @media screen and (min-width: 600px){
+  .bg{
+    height: 470vh;
+  }
   .section-left {
     width: 200%;
   }
@@ -176,6 +185,12 @@
   }
 }
 @media screen and (min-width: 1200px){
+  .bg{
+    height: 440vh;
+  }
+  .bg-home{
+    height: 100vh;
+  }
   .text-home h1 {
     font-size: 8em;
   }
